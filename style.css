@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0d0d0d;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar ul li a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    position: relative;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.title span {
+    background: linear-gradient(90deg, #00f2fe, #4facfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.btn-hero {
+    margin-top: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-hero:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #4facfe;
+}
+
+/* BACKGROUND CIRCLE MODERN */
+.circle-bg {
+    width: 650px;
+    height: 650px;
+    background: radial-gradient(circle, #1a1a1a, #000);
+    border-radius: 50%;
+    position: absolute;
+    right: -150px;
+    top: 10%;
+    filter: blur(5px);
+    opacity: 0.5;
+}
+
+/* SECTIONS */
+.section {
+    padding: 120px 10%;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+/* SKILLS CARDS */
+.skill-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.skill-card {
+    padding: 20px 30px;
+    background: #1a1a1a;
+    border-radius: 12px;
+    font-size: 18px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    border-color: #4facfe;
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #4facfe;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+/* MESSAGE TEXT */
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4facfe;
+    font-weight: 600;
+}
