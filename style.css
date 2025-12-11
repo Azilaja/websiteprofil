@@ -48,7 +48,7 @@ body {
     color: #fff;
 }
 
-/* HERO SECTION */
+/* HERO */
 .hero {
     height: 100vh;
     display: flex;
@@ -93,7 +93,7 @@ body {
     box-shadow: 0 0 20px #4facfe;
 }
 
-/* BACKGROUND CIRCLE MODERN */
+/* BACKGROUND CIRCLE */
 .circle-bg {
     width: 650px;
     height: 650px;
@@ -106,7 +106,7 @@ body {
     opacity: 0.5;
 }
 
-/* SECTIONS */
+/* SECTION */
 .section {
     padding: 120px 10%;
     text-align: center;
@@ -124,7 +124,7 @@ body {
     opacity: 0.8;
 }
 
-/* SKILLS CARDS */
+/* SKILLS */
 .skill-container {
     display: flex;
     justify-content: center;
@@ -156,7 +156,7 @@ footer {
     opacity: 0.6;
 }
 
-/* MESSAGE TEXT */
+/* MESSAGE */
 .message {
     margin-top: 20px;
     font-size: 18px;
